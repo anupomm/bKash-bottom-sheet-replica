@@ -11,6 +11,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: MyApp(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -82,8 +83,8 @@ class MyApp extends StatelessWidget {
                             child: FittedBox(
                               fit: BoxFit.scaleDown,
                               child: SizedBox(
-                                height: 60,
-                                width: 60,
+                                height: 50,
+                                width: 50,
                                 child: Image.asset(
                                   'images/airtel.png',
                                 ),
@@ -113,8 +114,8 @@ class MyApp extends StatelessWidget {
                             child: FittedBox(
                               fit: BoxFit.scaleDown,
                               child: SizedBox(
-                                height: 60,
-                                width: 60,
+                                height: 50,
+                                width: 50,
                                 child: Image.asset(
                                   'images/banglalink.png',
                                 ),
@@ -140,8 +141,8 @@ class MyApp extends StatelessWidget {
                             child: FittedBox(
                               fit: BoxFit.scaleDown,
                               child: SizedBox(
-                                height: 60,
-                                width: 60,
+                                height: 50,
+                                width: 50,
                                 child: Image.asset(
                                   'images/gp.png',
                                 ),
@@ -169,8 +170,8 @@ class MyApp extends StatelessWidget {
                             child: FittedBox(
                               fit: BoxFit.scaleDown,
                               child: SizedBox(
-                                height: 60,
-                                width: 60,
+                                height: 50,
+                                width: 50,
                                 child: Image.asset(
                                   'images/robi.png',
                                 ),
@@ -196,8 +197,8 @@ class MyApp extends StatelessWidget {
                             child: FittedBox(
                               fit: BoxFit.scaleDown,
                               child: SizedBox(
-                                height: 60,
-                                width: 60,
+                                height: 50,
+                                width: 50,
                                 child: Image.asset(
                                   'images/skitto.png',
                                 ),
@@ -220,8 +221,8 @@ class MyApp extends StatelessWidget {
                             child: FittedBox(
                               fit: BoxFit.scaleDown,
                               child: SizedBox(
-                                height: 60,
-                                width: 60,
+                                height: 50,
+                                width: 50,
                                 child: Image.asset(
                                   'images/teletalk.png',
                                 ),
